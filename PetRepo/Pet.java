@@ -41,15 +41,16 @@ public abstract class Pet
    /**-----------------------------------------------------------------
    * This method should return a string indicating what this pet says.
    /*/
-   abstract public String speak();
+   //abstract public String speak();
    //{return "sound";}
 
    /**-----------------------------------------------------------------
    * This method should return a string indicating how this pet moves.
    /*/
-   abstract public String move();
+   //abstract public String move();
 }
 
+//EVERY SINGLE THING INHERITS FROM OBJECT
 
 
 

@@ -12,8 +12,9 @@ public class Pets
    */
    public static void main (String[] args)
    {
+	   Dog hadley = new Dog();
 
-	  Pet Rex = new Dog("Rex",50);
+/*	  Pet Rex = new Dog("Rex",50);
 	  System.out.println(Rex.speak()  );
 
 	  Rex = new Cat("Lester");
@@ -55,7 +56,7 @@ public class Pets
 
    	//Snake sam = new Snake("Sam", 30);
     Poodle hadley = new Poodle(65,"Cream", "Hadley");
-/**/	Lab Boston = new Lab(65,"Cream", "Boston");
+/*	Lab Boston = new Lab(65,"Cream", "Boston");
 
 
 

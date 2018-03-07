@@ -7,5 +7,9 @@
  */
 public class Dog extends Pet
 {
-
+	//default constructor in dog
+	Dog ()
+	{
+		System.out.print("hi from dog");
+	}
 }
