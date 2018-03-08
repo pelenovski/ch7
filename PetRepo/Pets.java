@@ -12,7 +12,17 @@ public class Pets
    */
    public static void main (String[] args)
    {
-	   Dog hadley = new Dog();
+	   Dog sadley = new Dog("Sadley",80);
+	   System.out.println(sadley);
+	   System.out.println(sadley.getName());
+
+	   Dog thunder = new Dog("Thunder",50);
+	   System.out.println(thunder);
+
+	   Lab Boston = new Lab("Boston",55,"Black");
+	   System.out.println(Boston);
+
+
 
 /*	  Pet Rex = new Dog("Rex",50);
 	  System.out.println(Rex.speak()  );
