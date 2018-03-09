@@ -5,7 +5,7 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-public class Dog extends Pet
+public abstract class Dog extends Pet
 {
 	//default constructor in dog comes from object
 	private int weight;
@@ -14,10 +14,11 @@ public class Dog extends Pet
 		System.out.print("hi from dog");
 	}
 
-	Dog (String dogname, int weight)
+	Dog (String dogName, int dogweight)
 	{
-		super(dogname);
-		this.weight = weight;
+		//super();
+		super(dogName);	//must be the first code called
+		weight = dogWeight;
 	}
 
 

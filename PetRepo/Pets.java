@@ -12,7 +12,7 @@ public class Pets
    */
    public static void main (String[] args)
    {
-	   Dog sadley = new Dog("Sadley",80);
+	   Dog sadley = new Lab("Sadley",80);
 	   System.out.println(sadley);
 	   System.out.println(sadley.getName());
 
@@ -84,7 +84,7 @@ public class Pets
       System.out.println(fido.move() + " " + fido.getName() + " "
                          + fido.move());
 
-
+*/
 	 System.out.println(hadley);
 	 System.out.println(hadley.getName() + " says " + hadley.speak());
 	 System.out.println(hadley.move() + " " + hadley.getName() + " "

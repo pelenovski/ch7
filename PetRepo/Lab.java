@@ -12,6 +12,7 @@ public class Lab extends Dog
 	public Lab(String DogName, int DogWeight, String LabColor)
 	{
 		super(dogName,DogWeight);
+		color = LabColor;
 	}
 
 	public String toString()
