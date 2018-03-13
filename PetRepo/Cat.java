@@ -15,9 +15,9 @@ public class Cat extends Pet
 		this.mood = mood;
 	}
 
-	public mood(String mood)
+	public String getMood()
 	{
-
+		return mood;
 	}
 
 	public String speak()
