@@ -1,3 +1,8 @@
+//Pane Elenovski
+//3/15/2018
+//Shape Lab
+//Draws a shape by taking in given parameters
+
 import TurtleGraphics.Pen;
 
 public abstract class Shape

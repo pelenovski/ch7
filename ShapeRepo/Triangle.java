@@ -1,20 +1,17 @@
+//Pane Elenovski
+//3/15/2018
+//Triangle Lab
+//Creates a triangle with the given parameters
 
-
-/**
- * Write a description of class Square here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
-public class Square extends Shape
+public class Triangle extends Shape
 {
     /** description of instance variable x (add comment for each instance variable) */
     private int x;
 
     /**
-     * Default constructor for objects of class Square
+     * Default constructor for objects of class Triangle
      */
-    public Square()
+    public Triangle()
     {
         // initialise instance variables
         x = 0;
