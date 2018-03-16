@@ -5,33 +5,48 @@
 
 public class Wheel
 {
-    /** description of instance variable x (add comment for each instance variable) */
-    private int x;
-
-    /**
-     * Default constructor for objects of class Wheel
-     */
-    public Wheel()
+    
+    public int spoke()
     {
-        // initialise instance variables
-        x = 0;
+        System.out.println("Please enter the number of spokes you would like this wheel to have.");
+        Scanner keyboard = new Scanner(System.in);
+        
+        //user enters the number of spokes for wheel
+        int spokes = keyboard.nextInt();
+        
+        
+        
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *    that describes the operation of the method
-     *
-     * @pre        preconditions for the method
-     *            (what the method assumes about the method's parameters and class's state)
-     * @post    postconditions for the method
-     *            (what the method guarantees upon completion)
-     * @param    y    description of parameter y
-     * @return    description of the return value
-     */
-    public int sampleMethod(int y)
+    public void draw(Pen p)
     {
-        // put your code here
-        return x+y;
+        super.draw(p);
+        
+        //evenly spaces out the spokes to provide an asthetically pleasing spoke
+        int d = 360/spokes;
+        
+        p.up();
+        //draws spoke wheel based on coordinate position given
+        p.draw(getXpos(), getYpos);
+        
+        p.setDirection(90);
+        
+        for (int i = 1; i <= numSpokes; i++)
+        {
+            //algorithm to move each spoke into position while maintaining-
+            //-even spacing between spokes
+            p.down();
+            p.move(getRadius);
+            p.up();
+            p.move(getXpos(), getYpos());
+            p.turn(degree);
+        }
+        
+        
+        
+        
+        
+        
+        
     }
 
 }
