@@ -47,3 +47,5 @@ Temporary Items
 .apdisk
 *.docx
 *.bluej
+ShapeRepo/Circle.java
+ShapeRepo/Shape.java
